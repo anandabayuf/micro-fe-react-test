@@ -49,7 +49,7 @@ module.exports = function override(config) {
 		config.plugins = (config.plugins || []).concat([
 			new ModuleFederationPlugin(mfConfig),
 		]);
-		config.output.publicPath = getPublicPath();
+		config.output.publicPath = '/test/user-management';
 	}
 
 	return config;
