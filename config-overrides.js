@@ -5,6 +5,24 @@ const fs = require('fs');
 const path = require('path');
 
 module.exports = function override(config) {
+	/**
+	 * @returns {string}
+	 */
+	function getPublicPath() {
+		let publicPath = 'auto';
+		const providedPath = process.env.PUBLIC_URL;
+		if (
+			providedPath &&
+			providedPath.length >= 0 &&
+			providedPath.startsWith('http')
+		) {
+			publicPath = providedPath.endsWith('/')
+				? providedPath
+				: providedPath + '/';
+		}
+		return publicPath;
+	}
+
 	const fallback = config.resolve.fallback || {};
 	Object.assign(fallback, {
 		crypto: require.resolve('crypto-browserify'),
@@ -31,6 +49,7 @@ module.exports = function override(config) {
 		config.plugins = (config.plugins || []).concat([
 			new ModuleFederationPlugin(mfConfig),
 		]);
+		config.output.publicPath = getPublicPath();
 	}
 
 	return config;
