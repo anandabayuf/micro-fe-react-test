@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.js": "/test/static/js/main.6b3bea7d.js",
+    "main.js": "/test/static/js/main.dff0120d.js",
     "usermanagement.js": "/test/remoteEntry.js",
     "static/css/618.5e77a34b.chunk.css": "/test/static/css/618.5e77a34b.chunk.css",
-    "static/js/618.89616a13.chunk.js": "/test/static/js/618.89616a13.chunk.js",
+    "static/js/618.d7ea92ce.chunk.js": "/test/static/js/618.d7ea92ce.chunk.js",
     "static/js/728.4eb75183.chunk.js": "/test/static/js/728.4eb75183.chunk.js",
     "static/js/549.1ee1d1d5.chunk.js": "/test/static/js/549.1ee1d1d5.chunk.js",
     "static/js/918.1762855c.chunk.js": "/test/static/js/918.1762855c.chunk.js",
@@ -66,6 +66,6 @@
     "index.html": "/test/index.html"
   },
   "entrypoints": [
-    "static/js/main.6b3bea7d.js"
+    "static/js/main.dff0120d.js"
   ]
 }
