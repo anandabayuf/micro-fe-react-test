@@ -1,14 +1,13 @@
 const { dependencies } = require('./package.json');
 
 const MODULE_URL = process.env.REACT_APP_MODULE_URL;
-const PUBLIC_URL = process.env.PUBLIC_URL;
 
 module.exports = {
 	name: 'container',
 	filename: 'remoteEntry.js',
 	exposes: {},
 	remotes: {
-		usermanagement: `usermanagement@${MODULE_URL}${PUBLIC_URL}/user-management/remoteEntry.js`,
+		usermanagement: `usermanagement@${MODULE_URL}/user-management/remoteEntry.js`,
 	},
 	shared: {
 		...dependencies,
