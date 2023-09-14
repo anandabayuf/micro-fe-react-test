@@ -1,0 +1,42 @@
+export const dummyDataFileProcessFailureHistory = [
+	{
+		id: '1',
+		processDate: '2023-07-30T10:00:00',
+		fileName: 'BCAMT940',
+		bank: 'BCA',
+		status: '0',
+		additionalInformation: '',
+	},
+	{
+		id: '2',
+		processDate: '2023-07-30T10:00:00',
+		fileName: 'BCAMT940',
+		bank: 'BCA',
+		status: '1',
+		additionalInformation: 'File tidak sesuai dengan format BNI',
+	},
+	{
+		id: '3',
+		processDate: '2023-07-30T10:00:00',
+		fileName: 'BTNMT942',
+		bank: 'BTN',
+		status: '1',
+		additionalInformation: 'File tidak sesuai dengan format BNI',
+	},
+	{
+		id: '4',
+		processDate: '2023-07-30T10:00:00',
+		fileName: 'MandiriMT940',
+		bank: 'Mandiri',
+		status: '0',
+		additionalInformation: '',
+	},
+	{
+		id: '5',
+		processDate: '2023-07-30T10:00:00',
+		fileName: 'BRIMT940',
+		bank: 'BRI',
+		status: '1',
+		additionalInformation: 'File tidak sesuai dengan format BNI',
+	},
+];

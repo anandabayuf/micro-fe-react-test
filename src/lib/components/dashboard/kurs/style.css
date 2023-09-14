@@ -1,0 +1,4 @@
+.custom-disabled:disabled {
+  background-color: rgba(0, 102, 119, 0.3);
+  border: none;
+}

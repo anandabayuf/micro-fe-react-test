@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "http://34.101.158.242:8007/:match*"
+    },
+    {
+      "source": "/iam/:match*",
+      "destination": "http://34.101.71.39:9037/:match*"
+    }
+  ]
+}
