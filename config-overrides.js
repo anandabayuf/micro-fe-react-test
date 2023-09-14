@@ -42,15 +42,13 @@ module.exports = function override(config) {
 		}),
 	]);
 
-	console.log(config);
-
 	const projectDir = path.resolve(fs.realpathSync(process.cwd()));
 	const mfConfigPath = path.resolve(projectDir, 'moduleFederation.config.js');
-	console.log(projectDir);
-	console.log(mfConfigPath);
 	if (fs.existsSync(mfConfigPath)) {
 		const mfConfig = require(mfConfigPath);
-		config.plugins.push(new ModuleFederationPlugin(mfConfig));
+		config.plugins = (config.plugins || []).concat([
+			new ModuleFederationPlugin(mfConfig),
+		]);
 		config.output.publicPath = getPublicPath();
 	}
 
