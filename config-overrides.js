@@ -10,7 +10,7 @@ module.exports = function override(config) {
 	 */
 	function getPublicPath() {
 		let publicPath = 'auto';
-		const providedPath = process.env.PUBLIC_URL;
+		const providedPath = '/test/user-management';
 		if (
 			providedPath &&
 			providedPath.length >= 0 &&
