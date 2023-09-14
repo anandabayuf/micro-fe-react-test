@@ -28,7 +28,7 @@ interface RoutePropsInterface extends PathRouteProps {
 export const routes: Array<RoutePropsInterface> = [
 	{
 		path: '/',
-		element: <>Hello World</>,
+		element: <>Hello World User Management</>,
 	},
 	// {
 	// 	path: '/',
