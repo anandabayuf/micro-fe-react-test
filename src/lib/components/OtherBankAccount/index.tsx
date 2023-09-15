@@ -21,6 +21,7 @@ const OtherBankAccount: React.FC = () => {
 			w="full"
 			maxW="full"
 		>
+			{'HAHAHAHAHAH'}
 			<Heading
 				fontSize={{ base: 24, md: 32 }}
 				py={8}

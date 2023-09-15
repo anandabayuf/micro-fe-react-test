@@ -59,14 +59,14 @@ const ListOfBanksAndAccountsTab: React.FC = () => {
 				<Loading />
 			) : (
 				<>
-					{data === null ||
+					{!data ||
 					data?.content === null ||
 					data?.totalRecord === 0 ? (
 						<EmptyView />
 					) : (
 						<>
 							<ListOfBanksAndAccountsTable
-								data={data!}
+								data={data}
 								handleSort={handleSort}
 								page={page}
 								size={size}
