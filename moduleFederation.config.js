@@ -7,7 +7,7 @@ module.exports = {
 	filename: 'remoteEntry.js',
 	exposes: {},
 	remotes: {
-		usermanagement: `usermanagement@${MODULE_URL}/user-management/remoteEntry.js`,
+		usermanagement: `usermanagement@${MODULE_URL}/remoteEntry.js`,
 	},
 	shared: {
 		...dependencies,
