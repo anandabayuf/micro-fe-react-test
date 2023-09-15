@@ -3,8 +3,6 @@ import type { PathRouteProps } from 'react-router-dom';
 
 import MyApprovalDetail from 'lib/pages/my-approval/detail';
 import AdjustWidget from 'lib/pages/widget';
-//@ts-ignore
-import UserManagement from 'usermanagement/user-management';
 
 const Page404 = lazy(() => import('lib/pages/404'));
 const HomePage = lazy(() => import('lib/pages/home'));
@@ -15,7 +13,8 @@ const Calendar = lazy(() => import('lib/pages/calendar'));
 const LoginPage = lazy(() => import('lib/pages/login'));
 const ForgotPasswordPage = lazy(() => import('lib/pages/forgot-password'));
 const ChangePasswordPage = lazy(() => import('lib/pages/change-password'));
-// const UserManagement = lazy(() => import('lib/pages/user-management'));
+//@ts-ignore
+const UserManagement = lazy(() => import('usermanagement/user-management'));
 const MyApproval = lazy(() => import('lib/pages/my-approval'));
 const OtherBankAccountPage = lazy(() => import('lib/pages/OtherBankAccount'));
 const Kurs = lazy(() => import('lib/pages/kurs'));
