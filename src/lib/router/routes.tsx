@@ -16,7 +16,9 @@ const ChangePasswordPage = lazy(() => import('lib/pages/change-password'));
 //@ts-ignore
 const UserManagement = lazy(() => import('usermanagement/user-management'));
 const MyApproval = lazy(() => import('lib/pages/my-approval'));
-const OtherBankAccountPage = lazy(() => import('lib/pages/OtherBankAccount'));
+//prettier-ignore
+//@ts-ignore
+const OtherBankAccountPage = lazy(() => import('otherbankaccount/other-bank-account'));
 const Kurs = lazy(() => import('lib/pages/kurs'));
 const MultiBankCashFlowPage = lazy(() => import('lib/pages/MultiBankCashFlow'));
 const AggregateBank = lazy(() => import('lib/pages/aggregate-bank'));
