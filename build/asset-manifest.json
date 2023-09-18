@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.js": "/other-bank-account/static/js/main.be197688.js",
+    "main.js": "/other-bank-account/static/js/main.68c33d56.js",
     "otherbankaccount.js": "/other-bank-account/remoteEntry.js",
     "static/css/264.5e77a34b.chunk.css": "/other-bank-account/static/css/264.5e77a34b.chunk.css",
-    "static/js/264.947b9081.chunk.js": "/other-bank-account/static/js/264.947b9081.chunk.js",
+    "static/js/264.437bd8db.chunk.js": "/other-bank-account/static/js/264.437bd8db.chunk.js",
     "static/js/728.4eb75183.chunk.js": "/other-bank-account/static/js/728.4eb75183.chunk.js",
     "static/js/549.1ee1d1d5.chunk.js": "/other-bank-account/static/js/549.1ee1d1d5.chunk.js",
     "static/js/918.1762855c.chunk.js": "/other-bank-account/static/js/918.1762855c.chunk.js",
@@ -14,11 +14,11 @@
     "static/js/27.fb19bd6d.chunk.js": "/other-bank-account/static/js/27.fb19bd6d.chunk.js",
     "static/js/669.4c14413c.chunk.js": "/other-bank-account/static/js/669.4c14413c.chunk.js",
     "static/js/421.2e48f3e3.chunk.js": "/other-bank-account/static/js/421.2e48f3e3.chunk.js",
-    "static/js/231.cfc52cfb.chunk.js": "/other-bank-account/static/js/231.cfc52cfb.chunk.js",
+    "static/js/231.0f57a5f1.chunk.js": "/other-bank-account/static/js/231.0f57a5f1.chunk.js",
     "static/js/168.75f073bf.chunk.js": "/other-bank-account/static/js/168.75f073bf.chunk.js",
     "static/js/661.606c81ca.chunk.js": "/other-bank-account/static/js/661.606c81ca.chunk.js",
     "static/js/789.3dfbcd95.chunk.js": "/other-bank-account/static/js/789.3dfbcd95.chunk.js",
-    "static/js/609.ac35ea00.chunk.js": "/other-bank-account/static/js/609.ac35ea00.chunk.js",
+    "static/js/40.c7ed5408.chunk.js": "/other-bank-account/static/js/40.c7ed5408.chunk.js",
     "static/js/76.e444b3ae.chunk.js": "/other-bank-account/static/js/76.e444b3ae.chunk.js",
     "static/js/534.15ca7680.chunk.js": "/other-bank-account/static/js/534.15ca7680.chunk.js",
     "static/js/852.025232c7.chunk.js": "/other-bank-account/static/js/852.025232c7.chunk.js",
@@ -66,6 +66,6 @@
     "index.html": "/other-bank-account/index.html"
   },
   "entrypoints": [
-    "static/js/main.be197688.js"
+    "static/js/main.68c33d56.js"
   ]
 }

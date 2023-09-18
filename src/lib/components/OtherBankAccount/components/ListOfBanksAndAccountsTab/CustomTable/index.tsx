@@ -6,7 +6,7 @@ import { usePagination, useSortBy, useTable, useExpanded } from 'react-table';
 import CellItem from './cellItem';
 import HeaderItem from './headerItem';
 import { CustomTablePropsType } from 'lib/components/OtherBankAccount/types';
-import Pagination from 'lib/components/pagination/pagination';
+import Pagination from 'lib/components/shared/pagination/pagination';
 
 const CustomTable: React.FC<CustomTablePropsType> = ({
 	onSort,
