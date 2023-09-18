@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.js": "/user-management/static/js/main.0d8b7d08.js",
+    "main.js": "/user-management/static/js/main.9303b1ad.js",
     "usermanagement.js": "/user-management/remoteEntry.js",
     "static/css/618.5e77a34b.chunk.css": "/user-management/static/css/618.5e77a34b.chunk.css",
-    "static/js/618.def768bc.chunk.js": "/user-management/static/js/618.def768bc.chunk.js",
+    "static/js/618.d787e268.chunk.js": "/user-management/static/js/618.d787e268.chunk.js",
     "static/js/728.4eb75183.chunk.js": "/user-management/static/js/728.4eb75183.chunk.js",
     "static/js/549.1ee1d1d5.chunk.js": "/user-management/static/js/549.1ee1d1d5.chunk.js",
     "static/js/918.1762855c.chunk.js": "/user-management/static/js/918.1762855c.chunk.js",
@@ -26,14 +26,14 @@
     "static/js/110.0f2f15b8.chunk.js": "/user-management/static/js/110.0f2f15b8.chunk.js",
     "static/js/122.66c598da.chunk.js": "/user-management/static/js/122.66c598da.chunk.js",
     "static/js/16.ac1ca7b8.chunk.js": "/user-management/static/js/16.ac1ca7b8.chunk.js",
-    "static/js/615.2c32c9b2.chunk.js": "/user-management/static/js/615.2c32c9b2.chunk.js",
+    "static/js/615.dd75e0a7.chunk.js": "/user-management/static/js/615.dd75e0a7.chunk.js",
     "static/js/757.a8007612.chunk.js": "/user-management/static/js/757.a8007612.chunk.js",
-    "static/js/914.c97e7479.chunk.js": "/user-management/static/js/914.c97e7479.chunk.js",
+    "static/js/914.b127b7e9.chunk.js": "/user-management/static/js/914.b127b7e9.chunk.js",
     "static/js/321.d24d638f.chunk.js": "/user-management/static/js/321.d24d638f.chunk.js",
-    "static/js/443.e6a7cc70.chunk.js": "/user-management/static/js/443.e6a7cc70.chunk.js",
+    "static/js/443.acc944b9.chunk.js": "/user-management/static/js/443.acc944b9.chunk.js",
     "static/js/285.03dc905d.chunk.js": "/user-management/static/js/285.03dc905d.chunk.js",
-    "static/js/104.4b0d4c56.chunk.js": "/user-management/static/js/104.4b0d4c56.chunk.js",
-    "static/js/881.1e7e7d04.chunk.js": "/user-management/static/js/881.1e7e7d04.chunk.js",
+    "static/js/104.fca1d709.chunk.js": "/user-management/static/js/104.fca1d709.chunk.js",
+    "static/js/881.2456267b.chunk.js": "/user-management/static/js/881.2456267b.chunk.js",
     "static/js/627.2df62a7f.chunk.js": "/user-management/static/js/627.2df62a7f.chunk.js",
     "static/media/lato-latin-300-normal.woff": "/user-management/static/media/lato-latin-300-normal.205544e89f4d1d47d849.woff",
     "static/media/lato-latin-400-normal.woff": "/user-management/static/media/lato-latin-400-normal.292725486219768e6225.woff",
@@ -66,6 +66,6 @@
     "index.html": "/user-management/index.html"
   },
   "entrypoints": [
-    "static/js/main.0d8b7d08.js"
+    "static/js/main.9303b1ad.js"
   ]
 }
