@@ -3,12 +3,13 @@ import ForgotPasswordForm from 'lib/components/auth/forgot-password/ForgotPasswo
 import ForgotPasswordHead from 'lib/components/auth/forgot-password/ForgotPasswordHead';
 
 const ForgotPasswordPage = () => {
-  return (
-    <AuthPageWrapper>
-      <ForgotPasswordHead />
-      <ForgotPasswordForm />
-    </AuthPageWrapper>
-  );
+	return (
+		<AuthPageWrapper>
+			{'DARI MODULE'}
+			<ForgotPasswordHead />
+			<ForgotPasswordForm />
+		</AuthPageWrapper>
+	);
 };
 
 export default ForgotPasswordPage;
