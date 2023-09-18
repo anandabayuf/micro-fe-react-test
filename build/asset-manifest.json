@@ -1,10 +1,9 @@
 {
   "files": {
-    "main.js": "/ui-dashboard/static/js/main.7a26027a.js",
-    "static/css/3715.5e77a34b.chunk.css": "/ui-dashboard/static/css/3715.5e77a34b.chunk.css",
-    "static/js/3715.5178a4e2.chunk.js": "/ui-dashboard/static/js/3715.5178a4e2.chunk.js",
+    "main.js": "/ui-dashboard/static/js/main.bec04288.js",
+    "static/css/7315.5e77a34b.chunk.css": "/ui-dashboard/static/css/7315.5e77a34b.chunk.css",
+    "static/js/7315.f9a50517.chunk.js": "/ui-dashboard/static/js/7315.f9a50517.chunk.js",
     "static/js/6728.e4e0d382.chunk.js": "/ui-dashboard/static/js/6728.e4e0d382.chunk.js",
-    "static/js/6292.d3dda5f3.chunk.js": "/ui-dashboard/static/js/6292.d3dda5f3.chunk.js",
     "static/js/3803.b94c9029.chunk.js": "/ui-dashboard/static/js/3803.b94c9029.chunk.js",
     "static/js/4419.59787311.chunk.js": "/ui-dashboard/static/js/4419.59787311.chunk.js",
     "static/js/7527.f208e8a4.chunk.js": "/ui-dashboard/static/js/7527.f208e8a4.chunk.js",
@@ -12,7 +11,7 @@
     "static/js/2667.5272c6c8.chunk.js": "/ui-dashboard/static/js/2667.5272c6c8.chunk.js",
     "static/js/4942.dd4ec35a.chunk.js": "/ui-dashboard/static/js/4942.dd4ec35a.chunk.js",
     "static/js/1677.73f9976e.chunk.js": "/ui-dashboard/static/js/1677.73f9976e.chunk.js",
-    "static/js/1704.cfd5bb4a.chunk.js": "/ui-dashboard/static/js/1704.cfd5bb4a.chunk.js",
+    "static/js/2758.a42a8a09.chunk.js": "/ui-dashboard/static/js/2758.a42a8a09.chunk.js",
     "static/js/6031.5d7d469b.chunk.js": "/ui-dashboard/static/js/6031.5d7d469b.chunk.js",
     "static/js/2698.de8fa2fe.chunk.js": "/ui-dashboard/static/js/2698.de8fa2fe.chunk.js",
     "static/js/3538.0b97605b.chunk.js": "/ui-dashboard/static/js/3538.0b97605b.chunk.js",
@@ -28,12 +27,10 @@
     "static/js/9076.2faf1b51.chunk.js": "/ui-dashboard/static/js/9076.2faf1b51.chunk.js",
     "static/js/7956.6f76cf60.chunk.js": "/ui-dashboard/static/js/7956.6f76cf60.chunk.js",
     "static/css/8606.bdeb41f5.chunk.css": "/ui-dashboard/static/css/8606.bdeb41f5.chunk.css",
-    "static/js/8606.f5c1c6fd.chunk.js": "/ui-dashboard/static/js/8606.f5c1c6fd.chunk.js",
+    "static/js/8606.80b7815d.chunk.js": "/ui-dashboard/static/js/8606.80b7815d.chunk.js",
     "static/js/2834.eb8440b4.chunk.js": "/ui-dashboard/static/js/2834.eb8440b4.chunk.js",
     "static/js/2613.afbb944e.chunk.js": "/ui-dashboard/static/js/2613.afbb944e.chunk.js",
     "static/js/2370.fbaea3eb.chunk.js": "/ui-dashboard/static/js/2370.fbaea3eb.chunk.js",
-    "static/css/827.f43bafeb.chunk.css": "/ui-dashboard/static/css/827.f43bafeb.chunk.css",
-    "static/js/827.389ce295.chunk.js": "/ui-dashboard/static/js/827.389ce295.chunk.js",
     "static/css/9851.bbe9c60a.chunk.css": "/ui-dashboard/static/css/9851.bbe9c60a.chunk.css",
     "static/js/9851.1185061a.chunk.js": "/ui-dashboard/static/js/9851.1185061a.chunk.js",
     "static/css/6556.bbe9c60a.chunk.css": "/ui-dashboard/static/css/6556.bbe9c60a.chunk.css",
@@ -57,12 +54,10 @@
     "static/js/2376.44a548ae.chunk.js": "/ui-dashboard/static/js/2376.44a548ae.chunk.js",
     "static/js/217.a1f7937f.chunk.js": "/ui-dashboard/static/js/217.a1f7937f.chunk.js",
     "static/js/2870.afa291a6.chunk.js": "/ui-dashboard/static/js/2870.afa291a6.chunk.js",
-    "static/js/528.c5115a17.chunk.js": "/ui-dashboard/static/js/528.c5115a17.chunk.js",
     "static/js/5165.876053ac.chunk.js": "/ui-dashboard/static/js/5165.876053ac.chunk.js",
     "static/js/4672.92d5632b.chunk.js": "/ui-dashboard/static/js/4672.92d5632b.chunk.js",
     "static/js/7757.468e1662.chunk.js": "/ui-dashboard/static/js/7757.468e1662.chunk.js",
     "static/js/7443.b60150c9.chunk.js": "/ui-dashboard/static/js/7443.b60150c9.chunk.js",
-    "static/js/3350.49d1d4ad.chunk.js": "/ui-dashboard/static/js/3350.49d1d4ad.chunk.js",
     "static/js/5285.62e45b3e.chunk.js": "/ui-dashboard/static/js/5285.62e45b3e.chunk.js",
     "static/js/8104.4f3a1c71.chunk.js": "/ui-dashboard/static/js/8104.4f3a1c71.chunk.js",
     "static/js/9086.5c85438d.chunk.js": "/ui-dashboard/static/js/9086.5c85438d.chunk.js",
@@ -72,7 +67,6 @@
     "static/js/6660.cee9b3d2.chunk.js": "/ui-dashboard/static/js/6660.cee9b3d2.chunk.js",
     "static/js/9371.00b6d88f.chunk.js": "/ui-dashboard/static/js/9371.00b6d88f.chunk.js",
     "static/js/4186.e6a82600.chunk.js": "/ui-dashboard/static/js/4186.e6a82600.chunk.js",
-    "static/js/6561.cd81be97.chunk.js": "/ui-dashboard/static/js/6561.cd81be97.chunk.js",
     "static/js/8759.dc58dfd3.chunk.js": "/ui-dashboard/static/js/8759.dc58dfd3.chunk.js",
     "static/media/lato-latin-300-normal.woff": "/ui-dashboard/static/media/lato-latin-300-normal.205544e89f4d1d47d849.woff",
     "static/media/lato-latin-400-normal.woff": "/ui-dashboard/static/media/lato-latin-400-normal.292725486219768e6225.woff",
@@ -105,6 +99,6 @@
     "index.html": "/ui-dashboard/index.html"
   },
   "entrypoints": [
-    "static/js/main.7a26027a.js"
+    "static/js/main.bec04288.js"
   ]
 }

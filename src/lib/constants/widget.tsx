@@ -1,4 +1,5 @@
-import ListEvents from 'lib/components/calendar/events/listEvent';
+//@ts-ignore
+import ListEvents from 'calendar/listEvent';
 import AssetSummary from 'lib/components/dashboard/asset-summary';
 import CashflowTrendWidget from 'lib/components/dashboard/cashflow-trend/cashflow-trend-widget';
 import KursWidget from 'lib/components/dashboard/kurs/kurs-widget';
