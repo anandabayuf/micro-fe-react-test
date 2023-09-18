@@ -69,6 +69,7 @@ const MyApprovalDetail = () => {
 			maxW="full"
 			px={{ base: 5, md: 12 }}
 		>
+			{'DARI MODULE ??'}
 			<VStack>
 				<Heading
 					fontSize={{ base: 24, md: 32 }}

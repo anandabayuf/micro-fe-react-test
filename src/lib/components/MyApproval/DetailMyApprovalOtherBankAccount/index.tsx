@@ -1,6 +1,6 @@
 import { Stack, SimpleGrid, Text } from '@chakra-ui/react';
-// import StatusBox from 'lib/components/OtherBankAccount/components/ListOfBanksAndAccountsTab/StatusBox';
-// import { parseAccountType } from 'lib/components/OtherBankAccount/utils';
+import StatusBox from './StatusBox';
+import { parseAccountType } from '../utils';
 import { FormattedMessage } from 'react-intl';
 import { ValueOtherBankAccount } from '../../../services/api/myApproval/getMyApprovalDetail/types';
 
@@ -55,11 +55,11 @@ const DetailMyApprovalOtherBankAccount = ({
 					<FormattedMessage id="listOfBanksAndAccounts.label.accountType" />
 				</Text>
 				<Text>
-					{/* <FormattedMessage
+					<FormattedMessage
 						id={parseAccountType(
 							newValue?.accountType || oldValue?.accountType
 						)}
-					/> */}
+					/>
 					{newValue?.accountType || oldValue?.accountType}
 				</Text>
 			</SimpleGrid>
@@ -80,8 +80,7 @@ const DetailMyApprovalOtherBankAccount = ({
 				<Text>
 					<FormattedMessage id="listOfBanksAndAccounts.label.status" />
 				</Text>
-				{/* <StatusBox value={newValue?.status || oldValue?.status} /> */}
-				{newValue?.status || oldValue?.status}
+				<StatusBox value={newValue?.status || oldValue?.status} />
 			</SimpleGrid>
 		</Stack>
 	);

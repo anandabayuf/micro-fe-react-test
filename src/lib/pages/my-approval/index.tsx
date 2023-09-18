@@ -23,6 +23,7 @@ const MyApproval = () => {
 			maxW="full"
 			px={{ base: 5, md: 12 }}
 		>
+			{'DARI MODULE'}
 			<Heading
 				fontSize={{ base: 24, md: 32 }}
 				py={8}
