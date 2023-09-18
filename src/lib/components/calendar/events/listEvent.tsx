@@ -101,6 +101,7 @@ const ListEvents = ({ isWidget = false, componentId }: ListEventsProps) => {
 			maxH="lg"
 			overflowY="scroll"
 		>
+			{'DARI MODULE'}
 			{selectDate && (
 				<Flex
 					id={`${componentId}-event-back-to-event-btn`}

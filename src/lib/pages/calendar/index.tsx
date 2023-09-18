@@ -13,6 +13,7 @@ const CalendarPage = () => {
 			pt={{ base: '7', md: '10' }}
 			px={{ base: 5, md: 12 }}
 		>
+			{'DARI MODULE...'}
 			<Heading>
 				<FormattedMessage id="calendar" />
 			</Heading>
