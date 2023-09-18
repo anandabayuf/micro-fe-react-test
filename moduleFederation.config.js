@@ -11,6 +11,8 @@ module.exports = {
 		otherbankaccount: `otherbankaccount@${MODULE_URL}:3002/other-bank-account/remoteEntry.js`,
 		myapproval: `myapproval@${MODULE_URL}:3003/my-approval/remoteEntry.js`,
 		calendar: `calendar@${MODULE_URL}:3004/calendar/remoteEntry.js`,
+		changepassword: `changepassword@${MODULE_URL}:3005/change-password/remoteEntry.js`,
+		forgotpassword: `forgotpassword@${MODULE_URL}:3006/forgot-password/remoteEntry.js`,
 	},
 	shared: {
 		...dependencies,

@@ -9,8 +9,6 @@ const DepositPage = lazy(() => import('lib/pages/deposit'));
 const LoanPage = lazy(() => import('lib/pages/loan'));
 const CashFlowPage = lazy(() => import('lib/pages/cashflow'));
 const LoginPage = lazy(() => import('lib/pages/login'));
-const ForgotPasswordPage = lazy(() => import('lib/pages/forgot-password'));
-const ChangePasswordPage = lazy(() => import('lib/pages/change-password'));
 const Kurs = lazy(() => import('lib/pages/kurs'));
 const MultiBankCashFlowPage = lazy(() => import('lib/pages/MultiBankCashFlow'));
 const AggregateBank = lazy(() => import('lib/pages/aggregate-bank'));
@@ -29,6 +27,12 @@ const MyApprovalDetail = lazy(() => import('myapproval/my-approval-detail'));
 
 //@ts-ignore
 const Calendar = lazy(() => import('calendar/calendar'));
+
+//@ts-ignore
+const ChangePasswordPage = lazy(() => import('changepassword/change-password'));
+
+//@ts-ignore
+const ForgotPasswordPage = lazy(() => import('forgotpassword/forgot-password'));
 
 interface RoutePropsInterface extends PathRouteProps {
 	layout?: 'landing' | 'dashboard';
