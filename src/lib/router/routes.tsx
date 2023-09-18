@@ -1,7 +1,6 @@
 import { lazy } from 'react';
 import type { PathRouteProps } from 'react-router-dom';
 
-import MyApprovalDetail from 'lib/pages/my-approval/detail';
 import AdjustWidget from 'lib/pages/widget';
 
 const Page404 = lazy(() => import('lib/pages/404'));
@@ -13,15 +12,21 @@ const Calendar = lazy(() => import('lib/pages/calendar'));
 const LoginPage = lazy(() => import('lib/pages/login'));
 const ForgotPasswordPage = lazy(() => import('lib/pages/forgot-password'));
 const ChangePasswordPage = lazy(() => import('lib/pages/change-password'));
-//@ts-ignore
-const UserManagement = lazy(() => import('usermanagement/user-management'));
-const MyApproval = lazy(() => import('lib/pages/my-approval'));
-//prettier-ignore
-//@ts-ignore
-const OtherBankAccountPage = lazy(() => import('otherbankaccount/other-bank-account'));
 const Kurs = lazy(() => import('lib/pages/kurs'));
 const MultiBankCashFlowPage = lazy(() => import('lib/pages/MultiBankCashFlow'));
 const AggregateBank = lazy(() => import('lib/pages/aggregate-bank'));
+
+//@ts-ignore
+const UserManagement = lazy(() => import('usermanagement/user-management'));
+
+//prettier-ignore
+//@ts-ignore
+const OtherBankAccountPage = lazy(() => import('otherbankaccount/other-bank-account'));
+
+//@ts-ignore
+const MyApproval = lazy(() => import('myapproval/my-approval'));
+//@ts-ignore
+const MyApprovalDetail = lazy(() => import('myapproval/my-approval-detail'));
 
 interface RoutePropsInterface extends PathRouteProps {
 	layout?: 'landing' | 'dashboard';
